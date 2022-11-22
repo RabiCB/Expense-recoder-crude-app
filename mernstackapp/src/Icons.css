@@ -1,0 +1,38 @@
+.icons{
+    cursor: pointer;
+}
+
+.icons:hover{
+    color: red;
+}
+
+.Eicons{
+    cursor: pointer;
+
+}
+.table{
+    border:1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+}
+.Eicons:hover{
+    color:rgb(5, 233, 233);
+}
+
+@media screen and (max-width:680px) {
+    .table{
+        width:100%;
+        
+    }
+}
+    @media screen and (max-width:480px) {
+        .table{
+            width:100%;
+        }
+       
+            
+     }
+     
+    
